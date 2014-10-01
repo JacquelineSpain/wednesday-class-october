@@ -1,0 +1,35 @@
+body {
+	background-image: url(graphy.png) ;
+}
+
+#wrapper {
+	background-color: #993366;
+	width: 960px; /*give it an explicit number*/
+	height: 600px;
+	color: #330000;
+	margin: 0 auto; /*this keeps the div in the center, setting initial margins to o on left and right and setting it automatic auto's it as you adjust the page */
+	margin-top:100px;
+}
+
+#header {
+	background-color: #CC6666;
+	width: 100%; /*this will fill the div (wrapper), now we can use %'s*/
+	height: 15%;
+}
+
+#side {
+	background-color: #CC9999;
+	width: 15%;
+	height: 85%;
+	float: right;
+}
+
+#main {
+	background-color: #660033;
+	width: 85%;
+	height: 85%;
+	float: right;
+}
+
+
+
